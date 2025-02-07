@@ -14,6 +14,13 @@ build { //Update version in dslink.json
 }
 
 repositories {
+    maven {
+        url 'https://repo.sdc-automation.se/releases'
+        credentials {
+            username = System.getenv("SDC_REPO_USER")
+            password = System.getenv("SDC_REPO_USER_TOKEN")
+        }
+    }
     mavenLocal()
     mavenCentral()
     maven { url 'https://jitpack.io' }
