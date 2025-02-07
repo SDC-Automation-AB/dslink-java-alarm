@@ -32,7 +32,8 @@ wrapper {
 
 dependencies {
     //implementation 'org.iot-dsa:dslink:0.24.3'
-    implementation 'com.github.iot-dsa:sdk-dslink-java:1.0.0'
+    //implementation 'com.github.iot-dsa:sdk-dslink-java:1.0.0'
+    implementation 'com.github.iot-dsa.sdk-dslink-java:dslink:1.1.1'
     implementation 'com.h2database:h2:1.4.199'
 }
 
